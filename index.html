@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SpiceNest</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">SpiceNest</div>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#property-listings">Property Listings</a></li>
+                <li><a href="#blog">Cultural Blog</a></li>
+                <li><a href="#gallery">Gallery</a></li>
+                <li><a href="#about-us">About Us</a></li>
+                <li><a href="#contact-us">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="home" class="hero">
+            <h1>Welcome to SpiceNest</h1>
+            <p>Discover unique accommodations across South India, from serene beachside villas to cozy hilltop homestays. SpiceNest connects you with authentic cultural experiences and welcoming hosts, making every stay memorable. Immerse yourself in the beauty and heritage of South India while enjoying the comfort of handpicked stays.</p>
+            <a href="#property-listings" class="cta-button">Explore Stays</a>
+        </section>
+        <section id="property-listings" class="properties">
+            <h2>Property Listings</h2>
+            <div class="property-grid">
+                <div class="property">
+                    <img src="property1.jpg" alt="Beachfront Villa in Kerala">
+                    <div class="property-details">
+                        <h3>Beachfront Villa in Kerala</h3>
+                        <p>Experience luxury and tranquility by the sea, with private access to the beach and breathtaking sunset views.</p>
+                        <button class="view-button">View Details</button>
+                    </div>
+                </div>
+                <div class="property">
+                    <img src="property2.jpg" alt="Heritage Homestay in Tamil Nadu">
+                    <div class="property-details">
+                        <h3>Heritage Homestay in Tamil Nadu</h3>
+                        <p>Stay in a traditional South Indian home, surrounded by lush greenery and rich cultural heritage.</p>
+                        <button class="view-button">View Details</button>
+                    </div>
+                </div>
+                <div class="property">
+                    <img src="property3.jpeg" alt="Hilltop Cabin in Coorg">
+                    <div class="property-details">
+                        <h3>Hilltop Cabin in Coorg</h3>
+                        <p>Escape to the serene hills of Coorg, with panoramic views and cozy amenities for a perfect retreat.</p>
+                        <button class="view-button">View Details</button>
+                    </div>
+                </div>
+                <div class="property">
+                    <img src="property4.jpg" alt="Luxury Houseboat in Alleppey">
+                    <div class="property-details">
+                        <h3>Luxury Houseboat in Alleppey</h3>
+                        <p>Explore the scenic backwaters of Kerala aboard a luxurious houseboat, complete with traditional meals and breathtaking views.</p>
+                        <button class="view-button">View Details</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="blog" class="blog">
+            <h2>Cultural Blog</h2>
+            <article>
+                <h3>Exploring the Richness of South Indian Cuisine</h3>
+                <p>A journey through the flavors and traditions of South India.</p>
+                <a href="blog.html" class="read-more">Read More</a>
+            </article>
+        </section>
+        <section id="gallery" class="gallery">
+            <h2>Gallery</h2>
+            <div class="gallery-grid">
+                <img src="image1.jpg" alt="Gallery Image 1">
+                <img src="image2.jpg" alt="Gallery Image 2">
+                <img src="image3.jpg" alt="Gallery Image 3">
+                <img src="image4.jpg" alt="Gallery Image 4">
+            </div>
+        </section>
+        <section id="about-us" class="about-us">
+            <h2>About Us</h2>
+            <p>SpiceNest offers unique and culturally immersive stays across South India, connecting travelers with authentic experiences and local hosts.</p>
+        </section>
+        <section id="contact-us" class="contact-section">
+            <div class="contact-form">
+                <h1>Contact Us</h1>
+                <form action="submit_form.php" method="POST">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="name" placeholder="Your Name" required>
+
+                    <label for="email">E-mail</label>
+                    <input type="email" id="email" name="email" placeholder="Your Email" required>
+
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message" placeholder="Your Message" required></textarea>
+
+                    <button type="submit">Send Message</button>
+                </form>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 SpiceNest. All rights reserved.</p>
+        <p>
+            <a href="#privacy-policy">Privacy Policy</a> |
+            <a href="#terms-of-service">Terms of Service</a>
+        </p>
+    </footer>
+</body>
+</html>
